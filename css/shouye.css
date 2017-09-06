@@ -1,0 +1,1363 @@
+/*��ʼ��*/
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;  /*���滷����*/
+}
+body{
+    background-color: #F5F5F5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: normal;
+}
+a:hover{
+    text-decoration: underline;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: #2B2B2B;
+}
+.w1{
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+.header .w1 .topLogo{
+    width: 162px;
+    height: 42px;
+    background: url("../img/topbar.png") no-repeat 0 0 ;
+    position: absolute;
+    left: -64px;
+    top: 12px;
+}
+.header .w1 ul{
+    position: absolute;
+    left: 115px;
+    height: 70px;
+}
+.header .w1 ul li{
+    float: left;
+    font-size: 12px;
+    height: 70px;
+    line-height: 70px;
+    margin-left: 21px;
+}
+.header .w1 ul li a{
+    color: #cccccc;
+}
+.header .w1 ul li:last-child{
+    position: relative;
+}
+.header .w1 ul li:last-child .libgi{
+    width: 24px;
+    height: 16px;
+    position: absolute;
+    top:23px;
+    left: 61px;
+    background: url("../img/topbar.png") no-repeat -191px 0 ;
+}
+.header .w1 .topSearch{
+    width: 210px;
+    height: 31px;
+    border-radius: 16px;
+    float: right;
+    background-color: #fff;
+    margin-top: 21px;
+    margin-right: 10px;
+}
+.header .w1 .topSearch .searchbg{
+    width: 19px;
+    height: 19px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+    background: url("../img/icon2.png") no-repeat -150px -350px ;
+}
+.header .w1 .topSearch input{
+   float: right;
+    margin-right: 22px;
+    width: 154px;
+    height: 31px;
+    line-height: 31px;
+    color: #AF9BAF;
+    font-size: 12px;
+}
+.header .w1 .topLogin{
+    width: 70px;
+    height: 31px;
+    position: absolute;
+    right: -71px;
+    top:25px;
+}
+.header .w1 .topLogin button{
+    float: left;
+    background-color: #2A2A2A;
+    color: #787878;
+}
+.header .w1 .topLogin .triangle{
+    width: 12px;
+    height: 8px;
+    float: right;
+    margin-top: 7px;
+    margin-right: 22px;
+    background: url("../img/topbar.png") no-repeat -228px -380px ;
+}
+.header .w1 ol{
+    width: 150px;
+    height: 188px;
+    position: absolute;
+    top:54px;
+    right:-92px;
+    background-color: #151515;
+    display: none;
+    z-index: 2;
+}
+.header .w1 ol .oltriangle {
+    width: 16px;
+    height: 14px;
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    margin-left: -8px;
+    background: url("../img/topbar.png") no-repeat -228px -418px;
+}
+.header .w1 .topLogin .triangle:hover{
+    transform: rotate(180deg);
+}
+
+.header .w1 ol li{
+    width: 160px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 32px;
+    position: relative;
+    left: 20px;
+}
+.header .w1 ol li a{
+    color: #CCCCCC;
+    position: absolute;
+    left: 35px;
+}
+.header .w1 ol .li1,
+.li2,
+.li3,
+.li4,
+.li5 {
+    width: 17px;
+    height: 18px;
+    position: absolute;
+    left: 0px;
+    top:8px;
+}
+.header .w1 ol li .li1{
+    background: url("../img/toplist.png") no-repeat -2px -3px;
+}
+.header .w1 ol li .li2{
+    background: url("../img/toplist.png") no-repeat -20px -22px;
+}
+.header .w1 ol li .li3{
+    background: url("../img/toplist.png") no-repeat -20px -40px;
+}
+.header .w1 ol li .li4{
+    background: url("../img/toplist.png") no-repeat 0px -23px;
+}
+.header .w1 ol li .li5{
+    background: url("../img/toplist.png") no-repeat -2px -42px;
+}
+/*顶部导航栏结束*/
+/*顶部导航栏下面红色部分开始*/
+.redmusic{
+    width: 100%;
+    height: 34px;
+    background-color: #A40909;
+}
+.redmusic .w2{
+    width: 980px;
+    height: 34px;
+    margin: 0 auto;
+}
+
+.redmusic .w2 ul li{
+    float: left;
+    margin-right: 60px;
+    height: 34px;
+    line-height: 34px;
+}
+.redmusic .w2 ul li:first-child{
+    margin-left: 130px;
+    width: 50px;
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #720100;
+}
+.redmusic .w2 ul li:first-child .redtriangle{
+    width: 14px;
+    height: 8px;
+    position: absolute;
+    top:-18px;
+    left: 50%;
+    margin-left: -7px;
+    background: url("../img/topbar.png") no-repeat -226px 0px;
+}
+.redmusic .w2 ul li a{
+    color: white;
+    font-size: 12px;
+}
+
+/*顶部导航栏下面红色部分结束*/
+/*顶部轮播图部分开始*/
+.ringPic{
+    height: 338px;
+    width: 100%;
+    background-color: pink;
+}
+.ringPic .w3{
+    width: 980px;
+    height: 338px;
+    margin: 0 auto;
+    position: relative;
+}
+.ringPic .w3 a{
+    width: 730px;
+    height: 338px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.ringPic .w3 .arrLeft,
+.arrRight{
+    width: 34px;
+    height: 55px;
+    position: absolute;
+    top: 50%;
+    margin-top: -27.5px;
+
+}
+.ringPic .w3 .arrLeft{
+    background: url("../img/icon2.png") no-repeat 0 -228px;
+    left: -38px;
+}
+.ringPic .w3 .arrRight{
+    background: url("../img/icon2.png") no-repeat -40px -228px;
+    right: -38px;
+}
+.ringPic .w3 ol{
+    width: 170px;
+    height: 14px;
+    line-height: 14px;
+    position: absolute;
+    bottom: 10px;
+    left: 280px;
+    z-index: 2;
+}
+.ringPic .w3 ol li{
+    width: 12px;
+    height: 12px;
+    float: left;
+    border-radius: 6px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+.ringPic .w3 ol .current{
+    background-color: red;
+}
+.ringPic .w3 ol li:last-child{
+    margin-right: 0px;
+}
+.ringPic .w3 .rightLogin{
+    width: 254px;
+    height: 338px;
+    position: absolute;
+    top:0;
+    right: 0px;
+    background: url("../img/download.png") no-repeat 0 0 #0A0A0A;
+}
+.ringPic .w3 .rightLogin a{
+    width: 216px;
+    height: 57px;
+    position: absolute;
+    top: 211px;
+    left: 19px;
+}
+.ringPic .w3 .rightLogin a:hover{
+    background: url("../img/download.png") no-repeat 0 -340px;
+}
+.ringPic .w3 .rightLogin p{
+    font-size: 12px;
+    color: #8D8D8D;
+    position: absolute;
+    top:278px;
+    left: 12px;
+}
+/*顶部轮播图部分结束*/
+/*中间热门推荐开始*/
+.recommend{
+    width: 980px;
+    height: 617px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #fff;
+    border-left: 1px solid #CCCCCC;
+}
+.recommend .recHot,
+.newsongs .redNew{
+    width: 688px;
+    height: 52px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    border-bottom: 2px solid #C10D0C;
+}
+.recommend .recHot .saucer{
+    width: 116px;
+    height: 52px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.recommend .recHot .saucer .hotring{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top:28px;
+    left: 10px;
+    background:url("../img/index.png") no-repeat -231px -164px;
+}
+.recommend .recHot .saucer .hotmatter{
+    width: 82px;
+    height: 22px;
+    font-size: 20px;
+    position: absolute;
+    top:22px;
+    left: 30px;
+}
+.recommend .recHot ul{
+    position: absolute;
+    top:30px;
+    left: 134px;
+}
+.recommend .recHot ul li{
+    float: left;
+    margin-right: 14px;
+    font-size: 12px;
+    color: #DCCCDC;
+}
+.recommend .recHot ul li a{
+    color: #A3A38F;
+}
+.recommend .recHot .more{
+    width: 40px;
+    height: 16px;
+    position: absolute;
+    top:27px;
+    right: 10px;
+}
+.recommend .recHot .more a{
+    color: #A3A38F;
+    font-size: 12px;
+}
+.recommend .recHot .more .redarr{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top:6px;
+    right: 0;
+    background:url("../img/index.png") no-repeat 0px -240px;
+}
+.recommend .recPics{
+    width: 730px;
+    height: 486px;
+    position: absolute;
+    top:54px;
+    left: 0;
+}
+.recommend .recPics ul{
+    position: absolute;
+    top:20px;
+    left: 0;
+}
+.recommend .recPics ul li{
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    position: relative;
+    border: 1px solid #CCCCCC;
+    opacity: 0.5;
+}
+.recommend .recPics ul .lis1{
+    background:url("../img/44.jpg");
+}
+.recommend .recPics ul .lis2{
+    background:url("../img/15.jpg");
+}
+.recommend .recPics ul .lis3{
+    background:url("../img/159.jpg");
+}
+.recommend .recPics ul .lis4{
+    background:url("../img/17021.jpg");
+}
+.recommend .recPics ul .lis5{
+    background:url("../img/126.jpg");
+}
+.recommend .recPics ul .lis6{
+    background:url("../img/1153.jpg");
+}
+.recommend .recPics ul .lis7{
+    background:url("../img/125.jpg");
+}
+.recommend .recPics ul .lis8{
+    background:url("../img/23497.jpg");
+}
+.recommend .recPics ul li .number{
+    width: 140px;
+    height: 27px;
+    background-color: rgba(90,100,0,.7);
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    z-index: 1;
+}
+.recommend .recPics ul li .number .headset{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    left: 11px;
+    top:10px;
+    background:url("../img/iconall.png") no-repeat 0 -24px;
+}
+.recommend .recPics ul li .number .play{
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    right: 12px;
+    top:8px;
+    background:url("../img/iconall.png") no-repeat 0 0;
+}
+.recommend .recPics ul li .number .play:hover{
+    background:url("../img/iconall.png") no-repeat 2px -60px;
+}
+.recommend .recPics ul li .number .innertext{
+    width: 140px;
+    height: 48px;
+    position: absolute;
+    right: 0px;
+    bottom:-48px;
+    font-size: 12px;
+}
+.recommend .recPics ul li .number .innertext a{
+    color: #000;
+}
+.recommend .recPics ul li .number .innertext .innerbg{
+    width: 40px;
+    height: 18px;
+    position: absolute;
+    left: 0px;
+    top:2px;
+    background:url("../img/icon.png") no-repeat -31px -658px;
+}
+.recommend .recPics ul li .number .nums{
+    width: 42px;
+    height: 18px;
+    position: absolute;
+    left: 35px;
+    bottom: 0px;
+    font-size: 12px;
+    color: #A9ACAF;
+}
+.recommend .rightBar{
+    width: 252px;
+    height: 617px;
+    position: absolute;
+    right: 0;
+    top:0;
+    border:1px solid #CCCCCC ;
+    border-bottom: 0;
+}
+.recommend .rightBar .barTop{
+    width: 100%;
+    height: 124px;
+    position: absolute;
+    right: 0;
+    top:0;
+    background-color: #E9E9E9;
+}
+.recommend .rightBar .barTop p,
+h4{
+    font-size: 12px;
+    color: #A3A38F;
+}
+.recommend .rightBar .barTop p{
+    position: absolute;
+    top: 22px;
+    left:23px;
+}
+.recommend .rightBar .barTop h4{
+    position: absolute;
+    top: 42px;
+    left:23px;
+}
+.recommend .rightBar .barTop input{
+    width: 100px;
+    height: 31px;
+    border-radius: 5px;
+    background-color: #D11016;
+    line-height: 31px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    bottom: 17px;
+    left:77px;
+}
+.recommend .rightBar .singers{
+    width: 232px;
+    height: 40px;
+    position: absolute;
+    top:124px;
+    left: 20px;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 5px;
+}
+.recommend .rightBar .singers .sin{
+    position: absolute;
+    top:16px;
+    left: 0px;
+    width: 52px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.recommend .rightBar .singers a{
+    color: #A3A38F;
+    font-size: 12px;
+    position: absolute;
+    top:16px;
+    right: 21px;
+}
+.recommend .rightBar ul{
+    position: absolute;
+    top:170px;
+    left: 20px;
+}
+.recommend .rightBar ul li{
+    width: 210px;
+    height: 64px;
+    background-color: #FAFAFA;
+    margin-bottom: 12px;
+    position: relative;
+    border: 1px solid #E9E9E9;
+}
+.recommend .rightBar ul li:hover{
+    background-color: #F4F4F4;
+}
+.recommend .rightBar ul li .sinPic1,
+.sinPic2,
+.sinPic3,
+.sinPic4,
+.sinPic5{
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.recommend .rightBar ul li .sinPic1{
+    background: url("../img/5931865232210340.jpg");
+}
+.recommend .rightBar ul li .sinPic2{
+    background: url("../img/5783431162155757.jpg");
+}
+.recommend .rightBar ul li .sinPic3{
+    background: url("../img/2107763790458943.jpg");
+}
+.recommend .rightBar ul li .sinPic4{
+    background: url("../img/3263350517410958.jpg");
+}
+.recommend .rightBar ul li .sinPic5{
+    background: url("../img/1375489058855837.jpg");
+}
+.recommend .rightBar ul li h3{
+    position: absolute;
+    top:13px;
+    left: 77px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.recommend .rightBar ul li p{
+    position: absolute;
+    top:42px;
+    left: 77px;
+    font-size: 10px;
+}
+.recommend  button{
+    width: 211px;
+    height: 30px;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #E9E9E9;
+    position: absolute;
+    right: 22px;
+    bottom:26px;
+    background-color: #FCFCFC;
+}
+.recommend  button:hover{
+    background-color: #F4F4F4;
+}
+.recommend .adving{
+    width: 688px;
+    height: 73px;
+    background-color: pink;
+    z-index: 9;
+    position: absolute;
+    bottom: 0px;
+    left: 22px;
+    background: url("../img/06.png") round;
+}
+.recommend .adving img{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+/*中间热门推荐结束*/
+/*中间新碟上架部分轮播图开始*/
+ html,
+ body {
+     position: relative;
+     height: 100%;
+ }
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+.lbtBot{
+    width: 980px;
+    height: 265px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.lbtBot .lbt001{
+    width: 726px;
+    height: 265px;
+    border-right: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.lbtBot .lbt001 .redNew{
+    width: 688px;
+    height: 52px;
+    position: absolute;
+    top: 5px;
+    left: 22px;
+    z-index: 2;
+    background-color: #fff;
+    border-bottom: 2px solid #C10D0C;
+}
+.lbtBot .lbt001 .redNew .redring,
+.hotlist .list-left .listred .listring{
+    width: 116px;
+    height: 52px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.lbtBot .lbt001 .redNew .redring .hotring1,
+.hotlist .list-left .listred .listring .hotring2{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top:28px;
+    left: 10px;
+    background:url("../img/index.png") no-repeat -232px -164px;
+}
+.lbtBot .lbt001 .redNew .redring .hotmatter1,
+.hotlist .list-left .listred .listring .hotmatter2{
+    height: 22px;
+    font-size: 20px;
+    position: absolute;
+    top:22px;
+    left: 30px;
+}
+.lbtBot .lbt001 .redNew .more1,
+.hotlist .list-left .listred .more2{
+    width: 40px;
+    height: 16px;
+    position: absolute;
+    top:27px;
+    right: 10px;
+}
+.lbtBot .lbt001 .redNew .more1 a,
+.hotlist .list-left .listred .more2 a{
+    color: #A3A38F;
+    font-size: 12px;
+}
+.lbtBot .lbt001 .redNew .more1 .redarr1,
+.hotlist .list-left .listred .more2 .redarr2{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top:6px;
+    right: 0;
+    background:url("../img/index.png") no-repeat 0px -240px;
+}
+.swiper-container {
+    width: 688px;
+    height: 172px;
+    position: absolute;
+    top: 74px;
+    margin-left: 0px;
+    left: 0px;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #F5F5F5;
+    position: absolute;
+    top:10px;
+    left: 0px;
+    align-items: center;
+}
+.swiper-slide ul {
+    position: absolute;
+    left: 40px;
+    top: 17px;
+}
+.swiper-slide ul li {
+    list-style: none;
+    width: 118px;
+    height: 102px;
+    float: left;
+    border: 1px solid #F5F5F5;
+    position: relative;
+    margin-right: 4px;
+    background: url("../img/coverall.png")0 -571px;
+}
+.swiper-slide>ul>li>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.swiper-slide ul li i {
+    width: 135px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    font-size: 10px;
+    z-index: 4;
+    color: white;
+    display: none;
+}
+.swiper-slide>ul>li>a {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.swiper-slide ul li a img {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 3;
+    display: none;
+}
+.swiper-slide ul li:hover i,
+.swiper-slide ul li:hover a img {
+    display: block;
+}
+.swiper-slide ul>li>.innertext {
+    height: 104px;
+    height: 32px;
+    position: absolute;
+    bottom: -30px;
+    left: 0px;
+}
+.swiper-slide>ul>li>.innertext>a {
+    color: black;
+    font-size: 10px;
+}
+.lbtBot .lbt001 .swiper-button-prev{
+    position: absolute;
+    top:50%;
+    margin-top: -7px;
+    right: 12px;
+    width: 12px;
+    height: 14px;
+    background: url('../img/index.png') -262px -75px ;
+
+}
+.lbtBot .lbt001 .swiper-button-next{
+    position: absolute;
+    top:50%;
+    margin-top: -7px;
+    right: 12px;
+    width: 12px;
+    height: 14px;
+    background: url('../img/index.png') -301px -75px ;
+
+}
+.lbtBot .lbt001 .swiper-button-prev:hover{
+    background: url('../img/index.png') -282px -75px ;
+}
+.lbtBot .lbt001 .swiper-button-next:hover{
+    background: url('../img/index.png') -321px -75px ;
+}
+/*中间新碟上架部分轮播图结束*/
+/*新碟上架右边热门DJ开始*/
+.lbtBot .hotDJ{
+    width: 251px;
+    height: 315px;
+    position: absolute;
+    right: 0px;
+    top:-21px;
+}
+.lbtBot .hotDJ .hotti{
+    height: 45px;
+    width: 210px;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top:-10px;
+    right: 21px;
+}
+.lbtBot .hotDJ .hotti p{
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 10px;
+}
+.lbtBot .hotDJ ul{
+    position: absolute;
+    right: 21px;
+    top:45px;
+}
+.lbtBot .hotDJ ul li{
+    height: 40px;
+    width: 210px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.lbtBot .hotDJ ul li span{
+    position: absolute;
+    top:2px;
+    left: 50px;
+    font-size: 12px;
+}
+.lbtBot .hotDJ ul li span a{
+    float: left;
+    color: black;
+}
+.lbtBot .hotDJ ul li span div{
+    width: 12px;
+    height: 12px;
+    background: url("../img/icon.png");
+    float: right;
+}
+.lbtBot .hotDJ ul li p{
+    position: absolute;
+    bottom:2px;
+    left: 50px;
+    font-size: 12px;
+}
+/*新碟上架右边热门DJ结束*/
+/*底部榜单部分开始*/
+.hotlist{
+    width: 980px;
+    height: 603px;
+    background-color: white;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    position: relative;
+}
+.hotlist .list-left{
+    width: 726px;
+    height: 603px;
+    position: absolute;
+    top:0;
+    left: 0;
+    border-right: 1px solid #ccc;
+}
+.hotlist .list-left .listred{
+    width: 690px;
+    height: 56px;
+    position: absolute;
+    left: 21px;
+    top:0;
+    border-bottom: 2px solid #C10D0C;
+}
+.hotlist .list-left .listForm{
+    width: 690px;
+    height: 470px;
+    background-color: #F4F4F4;
+    border: 1px solid #ccc;
+    border-right: none;
+    position: absolute;
+    left: 21px;
+    top:91px;
+}
+.hotlist .list-left .listForm .songslist{
+    width: 229px;
+    height: 470px;
+    border-right: 1px solid #ccc;
+    float: left;
+    position: relative;
+}
+.hotlist .list-left .listForm .songslist .songslistTop{
+    height: 121px;
+    width: 229px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.hotlist .list-left .listForm .songslist .songslistTop img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+.hotlist>.list-left>.listForm>.songslist>.songslistTop>a{
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top:28px;
+    left:108px;
+    color: black;
+}
+.hotlist .list-left .listForm .songslist .songslistTop .listening{
+    width: 23px;
+    height: 23px;
+    background: url("../img/index.png") -264px -205px;
+    position: absolute;
+    top:54px;
+    left: 108px;
+}
+.hotlist .list-left .listForm .songslist .songslistTop .listening .lisTin{
+    width: 28px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    position: absolute;
+    top:34px;
+    left: 5px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #ccc;
+    display: none;
+}
+.hotlist .list-left .listForm .songslist .songslistTop .listening:hover{
+    background: url("../img/index.png") -264px -235px;
+    cursor: pointer;
+}
+.hotlist .list-left .listForm .songslist .songslistTop .listening:hover .lisTin{
+    display: block;
+}
+.hotlist .list-left .listForm .songslist .songslistTop .collect{
+    width: 20px;
+    height: 20px;
+    background: url("../img/index.png") -297px -206px;
+    position: absolute;
+    top:55px;
+    left: 141px;
+}
+.hotlist .list-left .listForm .songslist .songslistTop .collect .colLei{
+    width: 28px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    position: absolute;
+    top:34px;
+    left: 15px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #ccc;
+    display: none;
+}
+.hotlist .list-left .listForm .songslist .songslistTop .collect:hover{
+    background: url("../img/index.png") -297px -237px;
+    cursor: pointer;
+}
+.hotlist .list-left .listForm .songslist .songslistTop .collect:hover .colLei{
+    display: block;
+}
+.hotlist .list-left .listForm .songslist ul{
+    position: absolute;
+    top:120px;
+}
+.hotlist .list-left .listForm .songslist ul li{
+    height: 32px;
+    width: 229px;
+    position: relative;
+}
+.hotlist .list-left .listForm .songslist ul li p{
+    font-size: 13px;
+    position: absolute;
+    left: 55px;
+    height: 16px;
+    line-height: 16px;
+    bottom: -10px;
+    z-index: 4;
+    border: 1px solid #ccc;
+    background-color: ghostwhite;
+    padding: 1px;
+    display: none;
+}
+.hotlist .list-left .listForm .songslist ul li:hover p{
+    display: block;
+}
+.hotlist .list-left .listForm .songslist ul li:nth-child(2n+1){
+    background-color: #E8E8E8;
+}
+.hotlist .list-left .listForm .songslist ul li span,
+.hotlist .list-left .listForm .songslist ul li div{
+    font-size: 14px;
+    position: absolute;
+    left: 27px;
+    top:7px;
+}
+.hotlist>.list-left>.listForm>.songslist>ul>li>.redNumber{
+    color: #CC350C;
+}
+.hotlist>.list-left>.listForm>.songslist>ul>li>ol{
+    width: 78px;
+    height: 24px;
+    position: absolute;
+    right: 13px;
+    top:6px;
+    display: none;
+    background-color: transparent;
+}
+.hotlist>.list-left>.listForm>.songslist>ul>li>ol>li{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 20px;
+    float: left;
+    color: #999999;
+    margin-right: 2px;
+    text-align: center;
+
+}
+.hotlist>.list-left>.listForm>.songslist>ul>li>ol>li>i:hover{
+    color: #0A0A0A;
+}
+.hotlist .list-left .listForm .songslist ul li a{
+    font-size: 12px;
+    color: black;
+    position: absolute;
+    top:8px;
+    left: 48px;
+
+}
+.hotlist .list-left .listForm .songslist ul li:hover ol{
+    display: block;
+}
+.hotlist .list-left .listForm .songslist ul li:hover ol li{
+    background-color: transparent;
+}
+.hotlist .list-left .listForm .songslist ul li:hover a{
+    white-space:nowrap;
+    overflow:hidden;
+    width: 90px;
+    text-overflow:ellipsis;
+}
+.hotlist .list-left .listForm .songslist ul li:last-child a{
+    font-size: 12px;
+    color: black;
+    position: absolute;
+    top:8px;
+    left: 144px;
+}
+/*底部榜单部分结束*/
+/*最底部关于网易部分开始*/
+.footer{
+    height: 140px;
+    width: 100%;
+    background-color: #F2F2F2;
+    border-top: 1px solid #ccc;
+}
+.footer ul{
+    position: absolute;
+    top:40px;
+    left: 0;
+}
+.footer ul li{
+    list-style: none;
+    float: left;
+    margin-right: 12px;
+    font-size: 12px;
+    color: #999999;
+}
+.footer ul li a{
+    color: #999999;
+}
+.footer p{
+    font-size: 12px;
+    position: absolute;
+    top:65px;
+    left: 0;
+    color: #666666;
+}
+.footer ol{
+    position: absolute;
+    right: 0;
+    top:22px;
+}
+.footer ol li{
+    width: 50px;
+    height: 60px;
+    float: left;
+    background-color: pink;
+    margin-left:44px;
+}
+.footer ol li:nth-child(1){
+    background: url('../img/foot_enter.png') -65px -79px;
+}
+.footer ol li:nth-child(2){
+    background: url('../img/foot_enter.png') -8px -79px;
+}
+.footer ol li:nth-child(3){
+    background: url('../img/foot_enter.png') -8px 0px;
+}
+.footer ol li:nth-child(4){
+    background: url('../img/foot_enter.png') -65px 0px;
+}
+/*最底部关于网易部分结束*/
+/*底部播放器部分开始*/
+.player{
+    height: 53px;
+    width: 100%;
+    background-color: #2F2E2E;
+}
+.player .w1 .play-btns{
+    width: 106px;
+    height: 53px;
+    float: left;
+    /*background-color: pink;*/
+}
+.player .w1 .play-btns i{
+    font-size: 20px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 15px;
+    color: #C1C1C1;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: 2px solid #C1C1C1;
+    border-radius: 50%;
+    position: relative;
+}
+
+.player .w1 .play-btns i:hover{
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+.player .w1 .play-btns i:nth-of-type(2){
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    border:2px solid #FFFFFF;
+}
+.player .w1 .play-btns i:nth-of-type(2):hover{
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+.player .w1 .play-btns i:nth-of-type(1){
+    margin-left: 0;
+}
+.player .w1 .progress{
+    width: 658px;
+    height: 53px;
+    float: left;
+    position: relative;
+}
+.player .w1 .progress .progressPic{
+    width: 34px;
+    height: 34px;
+    border-radius: 5px;
+    position: absolute;
+    top:10px;
+    left: 20px;
+}
+.player .w1 .progress .progressPic img{
+    width: 34px;
+    height: 34px;
+}
+.player .w1 .progress .progressbar{
+    width: 505px;
+    height: 10px;
+    background-color: #191919;
+    border-radius: 5px;
+    position: absolute;
+    top:30px;
+    left: 70px;
+}
+.player .w1 .progress .progressbar .progressing{
+    width: 505px;
+    height: 10px;
+    border-radius: 5px;
+    background-color:#C70C0C;
+    display: none;
+}
+.player .w1 .progress .progressbar .cycle{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top:-2px;
+    left: 0px;
+    background: url("../img/iconall.png") -3px -253px;
+}
+.player .w1 .progress .progressbar .cycle:hover{
+    width: 17px;
+    height: 17px;
+    top:-1px;
+    left: -1px;
+    background: url("../img/iconall.png") -2px -283px;
+}
+.player .w1 .progress .progressTime{
+    width: 72px;
+    height: 14px;
+    position: absolute;
+    top:30px;
+    right: 0px;
+    margin-left: 5px;
+}
+.player .w1 .progress .progressTime span{
+    display: block;
+    float: left;
+    color: #979797;
+    font-size: 12px;
+}
+.player .w1 .popupbox{
+    width: 216px;
+    height: 53px;
+    float: right;
+}
+.player .w1 .popupbox .collect{
+    width: 17px;
+    height: 18px;
+    float: left;
+    margin-right: 11px;
+    margin-left: 24px;
+    margin-top: 20px;
+    background: url("../img/playbar.png") -92px -166px;
+}
+.player .w1 .popupbox .collect:hover{
+    background: url("../img/playbar.png") -92px -192px;
+}
+.player .w1 .popupbox .share{
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 20px;
+    background: url("../img/playbar.png") -118px -167px;
+}
+.player .w1 .popupbox .share:hover{
+    background: url("../img/playbar.png") -118px -193px;
+}
+.player .w1 .popupbox .xian{
+    width: 2px;
+    height: 16px;
+    background-color: #666666;
+    float: left;
+    margin-right: 13px;
+    margin-top: 20px;
+}
+.player .w1 .popupbox .volume{
+    width: 20px;
+    height: 20px;
+    margin-top: 18px;
+    float: left;
+    margin-right: 10px;
+    background: url("../img/playbar.png") -6px -250px;
+}
+.player .w1 .popupbox .volume:hover{
+    background: url("../img/playbar.png") -35px -250px;
+}
+.player .w1 .popupbox .round{
+    width: 19px;
+    height: 18px;
+    margin-top: 19px;
+    margin-right: 10px;
+    float: left;
+    background: url("../img/playbar.png") -6px -347px;
+}
+.player .w1 .popupbox .round:hover{
+    background: url("../img/playbar.png") -36px -347px;
+}
+.player .w1 .popupbox .play-list{
+    width: 55px;
+    height: 22px;
+    float: left;
+    margin-top: 20px;
+    background: url("../img/playbar.png") -45px -71px;
+}
+.player .w1 .popupbox .play-list:hover{
+    background: url("../img/playbar.png") -45px -101px;
+}
+.foot{
+    width: 100%;
+    height: 53px;
+    position: fixed;
+    bottom:0px;
+    background-color: #000;
+}
+.mp .mp-list-box{
+    position: absolute;
+    bottom: 53px;
+    left: 0;
+    width: 557px;
+    height: 300px;
+}
+
+/*底部播放器部分结束*/

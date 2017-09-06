@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>网易云音乐</title>
+    <link rel="stylesheet" href="css/shouye.css" />
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <link rel="stylesheet" href="css/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/mplayer.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" class="ico" />
+</head>
+
+<body>
+    <!--顶部导航栏开始-->
+    <div class="header">
+        <div class="w1">
+            <div class="topLogo"></div>
+            <ul>
+                <li><a href="#">发现音乐</a></li>
+                <li>|</li>
+                <li><a href="#">我的音乐</a></li>
+                <li>|</li>
+                <li><a href="#">朋友</a></li>
+                <li>|</li>
+                <li><a href="#">商城</a></li>
+                <li>|</li>
+                <li><a href="#">音乐人</a></li>
+                <li>|</li>
+                <li><a href="#">下载客户端</a>
+                    <div class="libgi"></div>
+                </li>
+            </ul>
+            <div class="topSearch">
+                <div class="searchbg"></div>
+                <input id="topSearching" type="text" value="单曲/歌手/专辑/歌单/MV/用户" />
+            </div>
+            <div class="topLogin">
+                <button>登录</button>
+                <div class="triangle" id="triangle"></div>
+            </div>
+            <ol id="ol1">
+                <div class="oltriangle"></div>
+                <li>
+                    <div class="li1"></div><a href="#">手机号登录</a></li>
+                <li>
+                    <div class="li2"></div><a href="#">微信登录</a></li>
+                <li>
+                    <div class="li3"></div><a href="#">QQ登录</a></li>
+                <li>
+                    <div class="li4"></div><a href="#">新浪微博登录</a></li>
+                <li>
+                    <div class="li5"></div><a href="#">网易邮箱账号</a></li>
+            </ol>
+        </div>
+    </div>
+    <!--顶部导航栏结束-->
+    <!--顶部导航栏下面红色部分开始-->
+    <div class="redmusic">
+        <div class="w2">
+            <ul>
+                <li>
+                    <div class="redtriangle"></div>
+                    <a href="#">推荐</a>
+                </li>
+                <li><a href="#">排行榜</a></li>
+                <li><a href="#">歌单</a></li>
+                <li><a href="#">主播电台</a></li>
+                <li><a href="#">歌手</a></li>
+                <li><a href="#">新碟上架</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--顶部导航栏下面红色部分结束-->
+    <!--顶部轮播图部分开始-->
+    <div class="ringPic" id="ringPic">
+        <div class="w3">
+            <ol id="w3ol">
+                <li class="current"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+            <div class="arrLeft" id="arrLeft"></div>
+            <a href="#"><img id="img" src="img/00.png" alt=""/></a>
+            <div class="arrRight" id="arrRight"></div>
+            <div class="rightLogin">
+                <a href="#"></a>
+                <p>PC 安卓 iPhone WP iPad Mac六大客户端</p>
+            </div>
+        </div>
+
+    </div>
+    <!--顶部轮播图部分结束-->
+    <!--中间热门推荐开始-->
+    <div class="recommend">
+        <div class="recHot">
+            <div class="saucer">
+                <div class="hotring"></div>
+                <div class="hotmatter">热门推荐</div>
+            </div>
+            <ul>
+                <li><a href="#">华语</a></li>
+                <li>|</li>
+                <li><a href="#">流行</a></li>
+                <li>|</li>
+                <li><a href="#">摇滚</a></li>
+                <li>|</li>
+                <li><a href="#">民谣</a></li>
+                <li>|</li>
+                <li><a href="#">电子</a></li>
+            </ul>
+            <div class="more">
+                <a href="#">更多</a>
+                <div class="redarr"></div>
+            </div>
+        </div>
+        <div class="recPics">
+            <ul>
+                <li class="lis1">
+                    <div class="number">
+                        <div class="headset"></div>
+                        <div class="nums">44万</div>
+                        <div class="innertext"><a href="#">【综艺】中餐厅背景音中餐厅背景音乐BGM合集</a></div>
+                        <a href="#" class="play"></a>
+                    </div>
+                </li>
+                <li class="lis2">
+                    <div class="number">
+                        <div class="headset"></div>
+                        <div class="nums">15万</div>
+                        <div class="innertext"><a href="#">深夜，伴你数满天繁星</a></div>
+                        <a href="#" class="play"></a>
+                    </div>
+                </li>
+                <li class="lis3">
+                    <div class="number">
+                        <div class="headset"></div>
+                        <div class="nums">159万</div>
+                        <div class="innertext"><a href="#">粤语live | 摇摆身体~这一刻你要尽情地嗨！</a></div>
+                        <a href="#" class="play"></a>
+                    </div>
+                </li>
+                <li class="lis4">
+                    <div class="number">
+                        <div class="headset"></div>
+                        <div class="nums">17021</div>
+                        <div class="innertext">
+                            <div class="innerbg"></div>
+                            <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我为什么要拼命爬出底层社会？</a>
+                        </div>
+                        <a href="#" class="play"></a>
+                    </div>
+                </li>
+                <li class="lis5">
+                    <div class="number">
+                        <div class="headset"></div>
+                        <div class="nums">126万</div>
+                        <div class="innertext"><a href="#">美国嘻哈说唱经典：大佬们史诗般的合作</a></div>
+                        <a href="#" class="play"></a>
+                    </div>
+                </li>
+                <li class="lis6">
+                    <div class="number">
+                        <div class="headset"></div>
+                        <div class="nums">1153</div>
+                        <div class="innertext">
+                            <div class="innerbg"></div>
+                            <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;唐僧肉为什么要蒸着吃？</a>
+                        </div>
+                        <a href="#" class="play"></a>
+                    </div>
+                </li>
+                <li class="lis7">
+                    <div class="number">
+                        <div class="headset"></div>
+                        <div class="nums">125万</div>
+                        <div class="innertext"><a href="#">【国产说唱】七彩螺旋式说唱</a></div>
+                        <a href="#" class="play"></a>
+                    </div>
+                </li>
+                <li class="lis8">
+                    <div class="number">
+                        <div class="headset"></div>
+                        <div class="nums">23497</div>
+                        <div class="innertext">
+                            <div class="innerbg"></div>
+                            <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Okey你认识，那okey-dokey easy-peasy什么意思你知道…</a>
+                        </div>
+                        <a href="#" class="play"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="rightBar">
+            <div class="barTop">
+                <p>登录网易云音乐，可以享受无限收藏的</p>
+                <h4>乐趣，并且无限同步到手机</h4>
+                <input type="button" value="用户登录" />
+            </div>
+            <div class="singers">
+                <div class="sin">入驻歌手</div>
+                <a href="#">查看全部 》</a>
+            </div>
+            <ul>
+                <li>
+                    <div class="sinPic1"></div>
+                    <h3>张惠妹aMEI</h3>
+                    <p>台湾歌手张惠妹</p>
+                </li>
+                <li>
+                    <div class="sinPic2"></div>
+                    <h3>尚雯婕</h3>
+                    <p>原创电子创作人</p>
+                </li>
+                <li>
+                    <div class="sinPic3"></div>
+                    <h3>羽泉组合</h3>
+                    <p>国内知名演唱组合</p>
+                </li>
+                <li>
+                    <div class="sinPic4"></div>
+                    <h3>李志</h3>
+                    <p>个体音乐人李志</p>
+                </li>
+                <li>
+                    <div class="sinPic5"></div>
+                    <h3>马頭麻油叶</h3>
+                    <p>民谣音乐人</p>
+                </li>
+            </ul>
+        </div>
+        <button>申请成为网易音乐人</button>
+        <div class="adving"><img src="img/short.png" alt="" /></div>
+    </div>
+    <!--中间热门推荐结束-->
+    <!--中间新碟上架部分轮播图开始-->
+    <div class="lbtBot">
+        <div class="lbt001">
+            <div class="redNew">
+                <div class="redring">
+                    <div class="hotring1"></div>
+                    <div class="hotmatter1">新碟上架</div>
+                </div>
+                <div class="more1">
+                    <a href="#">更多</a>
+                    <div class="redarr1"></div>
+                </div>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <ul>
+                            <li>
+                                <i>Steve Aoki Presents Kolony</i>
+                                <img src="img/lbt/lbt1.jpg" alt="" />
+                                <a class="imgg" href="#"><img src="img/icn_ply_hvr.png" alt=""/></a>
+                                <div class="innertext">
+                                    <a href="#">Steve Aoki Prese…</a><br/>
+                                    <a href="#">Steve Aoki</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i>TELEVISION</i>
+                                <img src="img/lbt/lbt2.jpg" alt="" />
+                                <a href="#"><img src="img/icn_ply_hvr.png" alt=""/></a>
+                                <div class="innertext">
+                                    <a href="#">TELEVISION</a><br/>
+                                    <a href="#">Zico</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i>我的前半生 电视原声带</i>
+                                <img src="img/lbt/lbt3.jpg" alt="" />
+                                <a href="#"><img src="img/icn_ply_hvr.png" alt=""/></a>
+                                <div class="innertext">
+                                    <a href="#">我的前半生 电视…</a><br/>
+                                    <a href="#">群星</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i>那不是我</i>
+                                <img src="img/lbt/lbt4.jpg" alt="" />
+                                <a href="#"><img src="img/icn_ply_hvr.png" alt=""/></a>
+                                <div class="innertext">
+                                    <a href="#">那不是我</a><br/>
+                                    <a href="#">谢天笑</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i>SUMMER EPISODE</i>
+                                <img src="img/lbt/lbt5.jpg" alt="" />
+                                <a href="#"><img src="img/icn_ply_hvr.png" alt=""/></a>
+                                <div class="innertext">
+                                    <a href="#">SUMMER EPISODE</a><br/>
+                                    <a href="#">乐童音乐家</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <ul>
+                            <li>
+                                <i>Lust For Life</i>
+                                <img src="img/lbt/lbt6.jpg" alt="" />
+                                <a href="#"><img src="img/icn_ply_hvr.png" alt=""/></a>
+                                <div class="innertext">
+                                    <a href="#">Lust For Life…</a><br/>
+                                    <a href="#">SLana Del Rey</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i>越过山丘</i>
+                                <img src="img/lbt/lbt7.jpg" alt="" />
+                                <a href="#"><img src="img/icn_ply_hvr.png" alt=""/></a>
+                                <div class="innertext">
+                                    <a href="#">越过山丘</a><br/>
+                                    <a href="#">杨宗纬</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i>JUNG YONG HWA 1ST MINI ALBUM DO DISTURB</i>
+                                <img src="img/lbt/lbt8.jpg" alt="" />
+                                <a href="#"><img src="img/icn_ply_hvr.png" alt=""/></a>
+                                <div class="innertext">
+                                    <a href="#">JUNG YONG H…</a><br/>
+                                    <a href="#">郑容和</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i>Dunkirk: Original Motion Picture Soundtrack</i>
+                                <img src="img/lbt/lbt9.jpg" alt="" />
+                                <a href="#"><img src="img/icn_ply_hvr.png" alt=""/></a>
+                                <div class="innertext">
+                                    <a href="#">Dunkirk: Original…</a><br/>
+                                    <a href="#">Hans Zimmer</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i>涙を流せないピエロは太陽も月もない空を見上げた</i>
+                                <img src="img/lbt/lbt10.jpg" alt="" />
+                                <a href="#"><img src="img/icn_ply_hvr.png" alt=""/></a>
+                                <div class="innertext">
+                                    <a href="#">涙を流せないピ…</a><br/>
+                                    <a href="#">GENERATIONS f…</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <!--新碟上架右边热门DJ开始-->
+        <div class="hotDJ">
+            <div class="hotti">
+                <p>热门DJ</p>
+            </div>
+            <ul>
+                <li>
+                    <img src="img\1407374893913311.jpg" alt="" />
+                    <span>
+                    <a href="#">陈立</a>
+                    <div class="redV"></div>
+                </span>
+                    <p>美食家陈立教授</p>
+                </li>
+                <li>
+                    <img src="img\7942872001461517.jpg" alt="" />
+                    <span>
+                    <a href="#">DJ艳秋</a>
+                    <div class="redV"></div>
+                </span>
+                    <p>著名音乐节目主持人</p>
+                </li>
+                <li>
+                    <img src="img\3427177769086282.jpg" alt="" />
+                    <span>
+                    <a href="#">国家大剧院古典音乐频道</a>
+                    <div class="redV"></div>
+                </span>
+                    <p>国家大剧院古典音乐官方</p>
+                </li>
+                <li>
+                    <img src="img\3130309604335651.jpg" alt="" />
+                    <span>
+                    <a href="#">谢谢收听</a>
+                    <div class="redV"></div>
+                </span>
+                    <p>南京电台主持人王馨</p>
+                </li>
+                <li>
+                    <img src="img\3440371884651965.jpg" alt="" />
+                    <span>
+                    <a href="#">DJ苏晓</a>
+                    <div class="redV"></div>
+                </span>
+                    <p>独立DJ，CRI环球旅游广播…</p>
+                </li>
+            </ul>
+
+        </div>
+        <!--新碟上架右边热门DJ结束-->
+    </div>
+    <!--中间新碟上架部分轮播图结束-->
+    <!--底部榜单部分开始-->
+    <div class="hotlist">
+        <div class="list-left">
+            <div class="listred">
+                <div class="listring">
+                    <div class="hotring2"></div>
+                    <div class="hotmatter2">榜单</div>
+                </div>
+                <div class="more2">
+                    <a href="#">更多</a>
+                    <div class="redarr2"></div>
+                </div>
+            </div>
+            <div class="listForm">
+                <div class="songslist">
+                    <div class="songslistTop">
+                        <a href="#">云音乐飙升榜</a>
+                        <img src="img/18696095720518497.jpg" alt="" />
+                        <div class="listening">
+                            <div class="lisTin">播放</div>
+                        </div>
+                        <div class="collect">
+                            <div class="colLei">收藏</div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="redNumber">1</div>
+                            <a href="#">如果我爱你</a>
+                            <p>如果我爱你</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <div class="redNumber">2</div>
+                            <a href="#">九张机</a>
+                            <p>九张机</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <div class="redNumber">3</div>
+                            <a href="#">神武醉相思(cover优我女团)</a>
+                            <p>神武醉相思(cover优我女团)</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <span>4</span><a href="#">非酋</a>
+                            <p>非酋</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <span>5</span><a href="#">春风十里不如你</a>
+                            <p>春风十里不如你</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <span>6</span><a href="#">不懂</a>
+                            <p>不懂</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <span>7</span><a href="#">You Are Beautiful</a>
+                            <p>You Are Beautiful</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <span>8</span><a href="#">蚂蚁</a>
+                            <p>蚂蚁</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <span>9</span><a href="#">风一样的我</a>
+                            <p>风一样的我</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <span>10</span><a href="#">JULY</a>
+                            <p>JULY</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><a href="#">查看全部 ></a></li>
+                    </ul>
+                </div>
+                <div class="songslist">
+                    <div class="songslistTop">
+                        <a href="#">云音乐新歌榜</a>
+                        <img src="img/18713687906568048.jpg" alt="" />
+                        <div class="listening">
+                            <div class="lisTin">播放</div>
+                        </div>
+                        <div class="collect">
+                            <div class="colLei">收藏</div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="redNumber">1</div>
+                            <a href="#">越过山丘</a>
+                            <p>越过山丘</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <div class="redNumber">2</div>
+                            <a href="#">不用去猜</a>
+                            <p>不用去猜</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <div class="redNumber">3</div>
+                            <a href="#">九张机</a>
+                            <p>九张机</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><span>4</span><a href="#">如果我爱你</a>
+                            <p>如果我爱你</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><span>5</span><a href="#">非酋</a>
+                            <p>非酋</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><span>6</span><a href="#">清白之年</a>
+                            <p>清白之年</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><span>7</span><a href="#">滂沱大雨里(滂沱交响版)</a>
+                            <p>滂沱大雨里(滂沱交响版)</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><span>8</span><a href="#">神武醉相思(cover优我女团)</a>
+                            <p>神武醉相思(cover优我女团)</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><span>9</span><a href="#">星期三或礼拜三</a>
+                            <p>星期三或礼拜三</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><span>10</span><a href="#">DINOSAUR</a>
+                            <p>DINOSAUR</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><a href="#">查看全部 ></a></li>
+                    </ul>
+                </div>
+                <div class="songslist">
+                    <div class="songslistTop">
+                        <a href="#">云音乐原创榜</a>
+                        <img src="img/18740076185638788.jpg" alt="" />
+                        <div class="listening">
+                            <div class="lisTin">播放</div>
+                        </div>
+                        <div class="collect">
+                            <div class="colLei">收藏</div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="redNumber">1</div><a href="#">不用去猜</a>
+                            <p>不用去猜</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <div class="redNumber">2</div>
+                            <a href="#">依然</a>
+                            <p>依然</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <div class="redNumber">3</div>
+                            <a href="#">我们向往着哪里</a>
+                            <p>我们向往着哪里</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><span>4</span><a href="#">隐</a>
+                            <p>隐</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><span>5</span><a href="#">天干物燥</a>
+                            <p>天干物燥</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><span>6</span><a href="#">装</a>
+                            <p>装</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><span>7</span><a href="#">山下</a>
+                            <p>山下</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><span>8</span><a href="#">谜</a>
+                            <p>谜</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><span>9</span><a href="#">我喜欢如此的你</a>
+                            <p>我喜欢如此的你</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><span>10</span><a href="#">无踪</a>
+                            <p>无踪</p>
+                            <ol>
+                                <li><i class="icon-play-circle"></i></li>
+                                <li><i class="icon-plus"></i></li>
+                                <li><i class="icon-plus-sign-alt"></i></li>
+                            </ol>
+                        </li>
+                        <li><a href="#">查看全部 ></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部榜单部分结束-->
+    <!--最底部关于网易部分开始-->
+    <div class="footer">
+        <div class="w1">
+            <ul>
+                <li><a href="#">关于网易</a></li>
+                <li>|</li>
+                <li><a href="#">客户服务</a></li>
+                <li>|</li>
+                <li><a href="#">服务条款</a></li>
+                <li>|</li>
+                <li><a href="#">网站导航</a></li>
+                <li>|</li>
+                <li><a href="#">意见反馈</a></li>
+            </ul>
+            <ol>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ol>
+            <p>网易公司版权所有©1997-2017杭州乐读科技有限公司运营：浙网文[2015] 0415-135号</p>
+        </div>
+
+    </div>
+    <!--最底部关于网易部分结束-->
+    <!--底部播放器部分开始-->
+    <div class="mp">
+        <div class="mp-box">
+            <img src="img/mplayer_error.png" alt="music cover" class="mp-cover">
+            <div class="mp-info">
+                <p class="mp-name">燕归巢</p>
+                <p class="mp-singer">许嵩</p>
+                <p><span class="mp-time-current">00:00</span>/<span class="mp-time-all">00:00</span></p>
+            </div>
+            <div class="mp-btn">
+                <button class="mp-prev" title="上一首"></button>
+                <button class="mp-pause" title="播放"></button>
+                <button class="mp-next" title="下一首"></button>
+                <button class="mp-mode" title="播放模式"></button>
+                <div class="mp-vol">
+                    <button class="mp-vol-img" title="静音"></button>
+                </div>
+            </div>
+            <div class="mp-pro">
+                <div class="mp-pro-current"></div>
+            </div>
+            <div class="mp-menu">
+                <button class="mp-list-toggle"></button>
+                <button class="mp-lrc-toggle"></button>
+            </div>
+        </div>
+        <div class="mp-lrc-box">
+            <ul class="mp-lrc"></ul>
+        </div>
+        <button class="mp-lrc-close"></button>
+        <div class="mp-list-box">
+            <ul class="mp-list-title"></ul>
+            <table class="mp-list-table">
+                <thead>
+                    <tr>
+                        <th>歌名</th>
+                        <th>歌手</th>
+                        <th>时长</th>
+                    </tr>
+                </thead>
+                <tbody class="mp-list"></tbody>
+            </table>
+        </div>
+    </div>
+    <div class="foot"></div>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/mplayer.min.js"></script>
+    <script src="js/mplayer-list.js"></script>
+    <script src="js/mplayer-functions.js"></script>
+    <script src="http://cdn.bootcss.com/jquery-nstslider/1.0.13/jquery.nstSlider.min.js"></script>
+    <script>
+        var modeText = ['顺序播放', '单曲循环', '随机播放', '列表循环'];
+        var player = new MPlayer({
+            // 容器选择器名称
+            containerSelector: '.mp',
+            // 播放列表
+            songList: mplayer_song,
+            // 专辑图片错误时显示的图片
+            defaultImg: 'img/mplayer_error.png',
+            // 自动播放
+            autoPlay: true,
+            // 播放模式(0->顺序播放,1->单曲循环,2->随机播放,3->列表循环(默认))
+            playMode: 0,
+            playList: 0,
+            playSong: 0,
+            // 当前歌词距离顶部的距离
+            lrcTopPos: 34,
+            // 列表模板，用${变量名}$插入模板变量
+            listFormat: '<tr><td>${name}$</td><td>${singer}$</td><td>${time}$</td></tr>',
+            // 音量滑块改变事件名称
+            volSlideEventName: 'change',
+            // 初始音量
+            defaultVolume: 80
+        }, function () {
+            // 绑定事件
+            this.on('afterInit', function () {
+                console.log('播放器初始化完成，正在准备播放');
+            }).on('beforePlay', function () {
+                var $this = this;
+                var song = $this.getCurrentSong(true);
+                var songName = song.name + ' - ' + song.singer;
+                console.log('即将播放' + songName + '，return false;可以取消播放');
+            }).on('timeUpdate', function () {
+                var $this = this;
+                console.log('当前歌词：' + $this.getLrc());
+            }).on('end', function () {
+                var $this = this;
+                var song = $this.getCurrentSong(true);
+                var songName = song.name + ' - ' + song.singer;
+                console.log(songName + '播放完毕，return false;可以取消播放下一曲');
+            }).on('mute', function () {
+                var status = this.getIsMuted() ? '已静音' : '未静音';
+                console.log('当前静音状态：' + status);
+            }).on('changeMode', function () {
+                var $this = this;
+                var mode = modeText[$this.getPlayMode()];
+                $this.dom.container.find('.mp-mode').attr('title', mode);
+                console.log('播放模式已切换为：' + mode);
+            });
+        });
+
+
+        $(document.body).append(player.audio); // 测试用
+
+        setEffects(player);
+    </script>
+
+    <!--底部播放器部分结束-->
+</body>
+
+</html>
+
+<script>
+        //顶部输入框的获得焦点、失去焦点事件：
+        $('#topSearching').on({
+            'focus': function () {
+                $('#topSearching').val('');
+            },
+            'blur': function () {
+                $('#topSearching').val('单曲/歌手/专辑/歌单/MV/用户');
+            }
+        });
+        //给登录按钮旁边的小三角注册鼠标移入事件：
+        $('#triangle').on({
+            'mouseover': function () {
+                $(this).siblings('button').css('color', 'white');
+                $('#ol1').slideDown(500);
+            },
+            'mouseout': function () {
+                $(this).siblings('button').css('color', '#787878');
+                $('#ol1').slideUp(2000);
+            }
+        });
+        //轮播图部分开始：
+        var json = ["#f9cfce", "#efefea", "#ffff00", "#85dcc7", "#23062f", "#ffffff", "#fadfa5"];
+        var w3ollis = document.getElementById("w3ol").children;
+        var img = document.getElementById("img");
+        var ringPic = document.getElementById("ringPic");
+        var arrLeft = document.getElementById("arrLeft");
+        var arrRight = document.getElementById("arrRight")
+        for (var i = 0; i < w3ollis.length; i++) {
+            w3ollis[i].setAttribute("index", i);
+            w3ollis[i].onmouseover = function () {
+                for (var j = 0; j < w3ollis.length; j++) {
+                    w3ollis[j].style.backgroundColor = '#fff';
+                }
+                this.style.backgroundColor = 'red';
+                var str = "img/0";
+                var x = this.getAttribute("index");
+                img.src = str + x + ".png";
+                ringPic.style.backgroundColor = json[x];
+            }
+        }
+        //给右边箭头注册单击事件：
+        var pic = 0;
+        arrRight.onclick = function () {
+            nextImg();
+        }
+        //右边箭头的函数封装：
+        function nextImg() {
+            if (pic == 6) {
+                pic = 0;
+            } else {
+                pic++;
+            }
+
+            var str = "img/0";
+            img.src = str + pic + ".png";
+            ringPic.style.backgroundColor = json[pic];
+            for (var i = 0; i < w3ollis.length; i++) {
+                w3ollis[i].removeAttribute("class");
+            }
+            w3ollis[pic].setAttribute("class", "current");
+        }
+        //设置计时器：
+        var timerId = setInterval(nextImg, 4000);
+
+        //给左边箭头注册单击事件：
+        arrLeft.onclick = function () {
+            if (pic == 0) {
+                pic = 6;
+            } else {
+                pic--;
+            }
+            var str = "img/0";
+            img.src = str + pic + ".png";
+            ringPic.style.backgroundColor = json[pic];
+            for (var i = 0; i < w3ollis.length; i++) {
+                w3ollis[i].removeAttribute("class");
+            }
+            w3ollis[pic].setAttribute("class", "current");
+        }
+
+        //给热门推荐部分的图片一个鼠标移入、移出事件：
+        $('.recommend>.recPics>ul>li').on({
+            'mouseover': function () {
+                $(this).fadeTo(500, 1);
+            },
+            'mouseout': function () {
+                $(this).fadeTo(500, .5);
+            }
+        });
+
+</script>
+<!--中间新碟上架部分轮播图-->
+<script src="dist/js/swiper.min.js"></script>
+<script>
+        var swiper = new Swiper('.swiper-container', {
+            // pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            slidesPerView: 1,
+            paginationClickable: true,
+            spaceBetween: 0,
+            loop: true,
+            autoplay: 1000,
+            effect: 'fade'
+        });
+
+</script>
